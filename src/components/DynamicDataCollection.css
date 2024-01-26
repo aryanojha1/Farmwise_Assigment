@@ -1,0 +1,84 @@
+/* Existing Styles */
+body {
+    margin: 1;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg, #26d0ce, #1a2980);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ff512f;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #ff512f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* New Styles */
+  .data-collection-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .data-collection-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .data-collection-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  .data-collection-form button {
+    /* existing styles */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .data-collection-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .data-collection-form button:hover {
+    background-color: #ff512f;
+  }
+  
